@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="مركز ريفولي لطب الأسنان في وسط البلد، القاهرة. خدمات متكاملة تشمل تقويم الأسنان، زراعة الأسنان، تبييض الأسنان، وأكثر. احجز موعدك الآن!">
+  <meta name="keywords" content="ريفولي, طب أسنان, تقويم, زراعة أسنان, تبييض أسنان, وسط البلد, القاهرة, عيادة أسنان">
+  <meta name="author" content="مركز ريفولي لطب الأسنان">
+  <meta property="og:title" content="مركز ريفولي لطب الأسنان - القاهرة">
+  <meta property="og:description" content="رعاية أسنان فاخرة في وسط البلد، القاهرة. خدمات احترافية بأحدث التقنيات.">
+  <meta property="og:image" content="/images/revoli-clinic.jpg">
+  <meta property="og:url" content="https://revoli-dental.com">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "مركز ريفولي لطب الأسنان",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "أعلى سينما ريفولي، أمام دار القضاء العالي",
+        "addressLocality": "وسط البلد",
+        "addressRegion": "القاهرة",
+        "addressCountry": "EG"
+      },
+      "telephone": "+201234567890"
+    }
+  </script>
+  <title>مركز ريفولي لطب الأسنان - وسط البلد، القاهرة</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="spinner"></div>
+  </div>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="/images/logo.png" alt="شعار مركز ريفولي" aria-label="شعار مركز ريفولي لطب الأسنان">
+      </div>
+      <button class="hamburger" aria-label="فتح القائمة">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#home" aria-label="الصفحة الرئيسية">الرئيسية</a></li>
+        <li><a href="#services" aria-label="الخدمات">الخدمات</a></li>
+        <li><a href="#booking" aria-label="الحجز">احجز موعد</a></li>
+        <li><a href="#gallery" aria-label="معرض الصور">معرض الصور</a></li>
+        <li><a href="#contact" aria-label="اتصل بنا">اتصل بنا</a></li>
+        <li><button id="theme-toggle" aria-label="تبديل الوضع"><i class="fas fa-moon"></i></button></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <img src="https://via.placeholder.com/1920x1080?text=مركز+ريفولي" alt="صورة هيرو لمركز ريفولي" class="hero-image">
+      <div class="hero-content">
+        <h1>مركز ريفولي لطب الأسنان</h1>
+        <p>رعاية أسنان فاخرة في قلب القاهرة</p>
+        <p class="hero-subtitle">ابتسامتك أولويتنا</p>
+        <a href="#booking" class="cta-button" aria-label="احجز موعدك الآن">احجز الآن</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="services">
+      <h2>خدماتنا</h2>
+      <div class="services-container" id="services-container"></div>
+    </section>
+
+    <section id="booking">
+      <h2>احجز موعدك</h2>
+      <div class="booking-form">
+        <input type="text" id="patient-name" placeholder="الاسم الكامل" aria-label="الاسم الكامل" required>
+        <input type="tel" id="patient-phone" placeholder="رقم الهاتف (11 رقم)" aria-label="رقم الهاتف" required pattern="\d{11}">
+        <select id="service-select" aria-label="اختر الخدمة">
+          <option value="">اختر الخدمة</option>
+        </select>
+        <div id="schedule-table" class="schedule-table">
+          <h3>اختر يوم وموعد</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>الأحد</th>
+                <th>الإثنين</th>
+                <th>الثلاثاء</th>
+                <th>الأربعاء</th>
+                <th>الخميس</th>
+                <th>الجمعة</th>
+                <th>السبت</th>
+              </tr>
+            </thead>
+            <tbody id="schedule-body"></tbody>
+          </table>
+        </div>
+        <button id="confirm-booking" class="cta-button" disabled>تأكيد الحجز</button>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>معرض الصور</h2>
+      <div class="swiper gallery-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://via.placeholder.com/300x200?text=غرفة+العلاج" alt="غرفة العلاج" loading="lazy">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://via.placeholder.com/300x200?text=معدات+حديثة" alt="معدات حديثة" loading="lazy">
+          </div>
+          <div class="swiper-slide">
+            <img src="https://via.placeholder.com/300x200?text=نتائج+التقويم" alt="نتائج التقويم" loading="lazy">
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="why-us">
+      <h2>لماذا نحن؟</h2>
+      <div class="why-us-container">
+        <div class="why-us-card">
+          <h3>تقنيات حديثة</h3>
+          <p>نستخدم أحدث الأجهزة والتقنيات لضمان أفضل النتائج.</p>
+        </div>
+        <div class="why-us-card">
+          <h3>فريق محترف</h3>
+          <p>فريق من أطباء الأسنان ذوي الخبرة العالية.</p>
+        </div>
+        <div class="why-us-card">
+          <h3>راحة المرضى</h3>
+          <p>نقدم تجربة مريحة وآمنة لكل مريض.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>اتصل بنا</h2>
+      <p>العنوان: وسط البلد، أعلى سينما ريفولي، أمام دار القضاء العالي، القاهرة</p>
+      <p>الهاتف: 0123-456-7890</p>
+      <p>البريد الإلكتروني: info@revoli-dental.com</p>
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <button id="back-to-top" aria-label="العودة إلى الأعلى">↑</button>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 مركز ريفولي لطب الأسنان. جميع الحقوق محفوظة.</p>
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank" aria-label="فيسبوك">فيسبوك</a>
+        <a href="https://instagram.com" target="_blank" aria-label="إنستغرام">إنستغرام</a>
+        <a href="https://wa.me/+201234567890" target="_blank" aria-label="واتساب">واتساب</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+  <script src="script.js"></script>
+</body>
+</html>
