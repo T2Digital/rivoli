@@ -2,34 +2,34 @@
 const services = [
   {
     id: 1,
-    name: 'تقويم الأسنان',
-    description: 'تصحيح محاذاة الأسنان بأحدث التقنيات.',
-    image: 'https://via.placeholder.com/300x180?text=تقويم+الأسنان',
-    duration: '6-24 شهرًا',
-    benefits: 'تحسين المظهر، تصحيح العضة، سهولة التنظيف.',
-    moreInfo: 'تقويم معدني أو شفاف حسب الحالة.',
-    details: 'نقدم تقويم الأسنان باستخدام أحدث التقنيات لضمان نتائج مثالية. تشمل الخدمة استشارة مجانية ومتابعة دورية.',
+    name: 'استشارة',
+    description: 'استشارة طبية لتقييم حالة الأسنان.',
+    image: 'https://via.placeholder.com/300x180?text=استشارة',
+    duration: '30 دقيقة',
+    benefits: 'تشخيص دقيق، خطة علاج مخصصة.',
+    moreInfo: 'استشارة مع أطباء متخصصين.',
+    details: 'نقدم استشارات شاملة مع أطباء متخصصين لتحديد أفضل خطة علاجية لكل مريض.',
     video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     images: [
-      'https://via.placeholder.com/300x200?text=تقويم+1',
-      'https://via.placeholder.com/300x200?text=تقويم+2',
-      'https://via.placeholder.com/300x200?text=تقويم+3'
+      'https://via.placeholder.com/300x200?text=استشارة+1',
+      'https://via.placeholder.com/300x200?text=استشارة+2',
+      'https://via.placeholder.com/300x200?text=استشارة+3'
     ]
   },
   {
     id: 2,
-    name: 'زراعة الأسنان',
-    description: 'زراعة أسنان دائمة بجودة عالية.',
-    image: 'https://via.placeholder.com/300x180?text=زراعة+الأسنان',
-    duration: '3-6 أشهر',
-    benefits: 'استعادة وظيفة الأسنان، مظهر طبيعي.',
-    moreInfo: 'زراعة بتقنية 3D لضمان الدقة.',
-    details: 'زراعة الأسنان باستخدام تقنية 3D لضمان الدقة والراحة، مع ضمان لمدة 5 سنوات.',
+    name: 'تنظيف الأسنان',
+    description: 'إزالة الجير والبقع للحفاظ على صحة الأسنان.',
+    image: 'https://via.placeholder.com/300x180?text=تنظيف+الأسنان',
+    duration: '30 دقيقة',
+    benefits: 'منع التسوس، تحسين صحة اللثة.',
+    moreInfo: 'تنظيف بالموجات فوق الصوتية.',
+    details: 'تنظيف عميق باستخدام الموجات فوق الصوتية لإزالة الجير والبقع بأمان.',
     video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     images: [
-      'https://via.placeholder.com/300x200?text=زراعة+1',
-      'https://via.placeholder.com/300x200?text=زراعة+2',
-      'https://via.placeholder.com/300x200?text=زراعة+3'
+      'https://via.placeholder.com/300x200?text=تنظيف+1',
+      'https://via.placeholder.com/300x200?text=تنظيف+2',
+      'https://via.placeholder.com/300x200?text=تنظيف+3'
     ]
   },
   {
@@ -50,63 +50,255 @@ const services = [
   },
   {
     id: 4,
-    name: 'تنظيف الأسنان',
-    description: 'إزالة الجير والبقع للحفاظ على صحة الأسنان.',
-    image: 'https://via.placeholder.com/300x180?text=تنظيف+الأسنان',
-    duration: '30 دقيقة',
-    benefits: 'منع التسوس، تحسين صحة اللثة.',
-    moreInfo: 'تنظيف بالموجات فوق الصوتية.',
-    details: 'تنظيف عميق باستخدام الموجات فوق الصوتية لإزالة الجير والبقع بأمان.',
+    name: 'توريد اللثة',
+    description: 'علاج تصبغ اللثة لتحسين المظهر.',
+    image: 'https://via.placeholder.com/300x180?text=توريد+اللثة',
+    duration: '1 ساعة',
+    benefits: 'لثة صحية ومظهر جمالي.',
+    moreInfo: 'علاج بالليزر لتصحيح لون اللثة.',
+    details: 'توريد اللثة باستخدام تقنيات ليزر متقدمة للحصول على لثة صحية ومظهر طبيعي.',
     video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     images: [
-      'https://via.placeholder.com/300x200?text=تنظيف+1',
-      'https://via.placeholder.com/300x200?text=تنظيف+2',
-      'https://via.placeholder.com/300x200?text=تنظيف+3'
+      'https://via.placeholder.com/300x200?text=توريد+1',
+      'https://via.placeholder.com/300x200?text=توريد+2',
+      'https://via.placeholder.com/300x200?text=توريد+3'
     ]
   },
   {
     id: 5,
-    name: 'حشوات الأسنان',
-    description: 'حشوات تجميلية وعملية للأسنان.',
-    image: 'https://via.placeholder.com/300x180?text=حشوات+الأسنان',
-    duration: '1 ساعة',
+    name: 'حشو عادي',
+    description: 'حشوات لعلاج التسوس بمواد آمنة.',
+    image: 'https://via.placeholder.com/300x180?text=حشو+عادي',
+    duration: '45 دقيقة',
     benefits: 'إصلاح التسوس، حماية الأسنان.',
-    moreInfo: 'حشوات بيضاء مطابقة للون الأسنان.',
-    details: 'حشوات تجميلية مطابقة للون الأسنان، مع متانة عالية ومظهر طبيعي.',
+    moreInfo: 'حشوات متينة وآمنة.',
+    details: 'حشوات عادية باستخدام مواد عالية الجودة لعلاج التسوس وحماية الأسنان.',
     video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     images: [
-      'https://via.placeholder.com/300x200?text=حشوات+1',
-      'https://via.placeholder.com/300x200?text=حشوات+2',
-      'https://via.placeholder.com/300x200?text=حشوات+3'
+      'https://via.placeholder.com/300x200?text=حشو+عادي+1',
+      'https://via.placeholder.com/300x200?text=حشو+عادي+2',
+      'https://via.placeholder.com/300x200?text=حشو+عادي+3'
     ]
   },
   {
     id: 6,
+    name: 'حشو تجميلي أمامي',
+    description: 'حشوات تجميلية للأسنان الأمامية.',
+    image: 'https://via.placeholder.com/300x180?text=حشو+تجميلي+أمامي',
+    duration: '1 ساعة',
+    benefits: 'مظهر طبيعي، تحسين الابتسامة.',
+    moreInfo: 'حشوات مطابقة للون الأسنان.',
+    details: 'حشوات تجميلية أمامية بمواد مطابقة للون الأسنان لتحسين المظهر.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=حشو+أمامي+1',
+      'https://via.placeholder.com/300x200?text=حشو+أمامي+2',
+      'https://via.placeholder.com/300x200?text=حشو+أمامي+3'
+    ]
+  },
+  {
+    id: 7,
+    name: 'حشو تجميلي خلفي',
+    description: 'حشوات تجميلية للأسنان الخلفية.',
+    image: 'https://via.placeholder.com/300x180?text=حشو+تجميلي+خلفي',
+    duration: '1 ساعة',
+    benefits: 'متانة ومظهر طبيعي.',
+    moreInfo: 'حشوات بيضاء متينة.',
+    details: 'حشوات تجميلية خلفية بمواد متينة لضمان المظهر والوظيفة.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=حشو+خلفي+1',
+      'https://via.placeholder.com/300x200?text=حشو+خلفي+2',
+      'https://via.placeholder.com/300x200?text=حشو+خلفي+3'
+    ]
+  },
+  {
+    id: 8,
+    name: 'زراعة الأسنان',
+    description: 'زراعة أسنان دائمة بجودة عالية.',
+    image: 'https://via.placeholder.com/300x180?text=زراعة+الأسنان',
+    duration: '3-6 أشهر',
+    benefits: 'استعادة وظيفة الأسنان، مظهر طبيعي.',
+    moreInfo: 'زراعة بتقنية 3D لضمان الدقة.',
+    details: 'زراعة الأسنان باستخدام تقنية 3D لضمان الدقة والراحة، مع ضمان لمدة 5 سنوات.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=زراعة+1',
+      'https://via.placeholder.com/300x200?text=زراعة+2',
+      'https://via.placeholder.com/300x200?text=زراعة+3'
+    ]
+  },
+  {
+    id: 9,
+    name: 'تركيبات ثابتة',
+    description: 'تركيبات أسنان دائمة لتحسين الوظيفة.',
+    image: 'https://via.placeholder.com/300x180?text=تركيبات+ثابتة',
+    duration: '2-4 أسابيع',
+    benefits: 'متانة، مظهر طبيعي.',
+    moreInfo: 'تركيبات زيركون وبورسلين.',
+    details: 'تركيبات ثابتة باستخدام زيركون أو بورسلين لضمان المتانة والمظهر الطبيعي.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=تركيبات+ثابتة+1',
+      'https://via.placeholder.com/300x200?text=تركيبات+ثابتة+2',
+      'https://via.placeholder.com/300x200?text=تركيبات+ثابتة+3'
+    ]
+  },
+  {
+    id: 10,
+    name: 'تركيبات متحركة',
+    description: 'تركيبات أسنان قابلة للإزالة.',
+    image: 'https://via.placeholder.com/300x180?text=تركيبات+متحركة',
+    duration: '1-2 أسابيع',
+    benefits: 'راحة، سهولة الاستخدام.',
+    moreInfo: 'تركيبات مرنة ومتينة.',
+    details: 'تركيبات متحركة مريحة وسهلة الاستخدام، مصممة حسب احتياجات المريض.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=تركيبات+متحركة+1',
+      'https://via.placeholder.com/300x200?text=تركيبات+متحركة+2',
+      'https://via.placeholder.com/300x200?text=تركيبات+متحركة+3'
+    ]
+  },
+  {
+    id: 11,
+    name: 'علاج عصب',
+    description: 'علاج قنوات العصب بدقة عالية.',
+    image: 'https://via.placeholder.com/300x180?text=علاج+عصب',
+    duration: '1-2 ساعة',
+    benefits: 'إزالة الألم، الحفاظ على السن.',
+    moreInfo: 'علاج باستخدام أحدث الأجهزة.',
+    details: 'علاج قنوات العصب باستخدام أجهزة متطورة لضمان الراحة وإزالة الألم.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=عصب+1',
+      'https://via.placeholder.com/300x200?text=عصب+2',
+      'https://via.placeholder.com/300x200?text=عصب+3'
+    ]
+  },
+  {
+    id: 12,
+    name: 'إعادة حشو عصب',
+    description: 'إعادة علاج قنوات العصب للحالات السابقة.',
+    image: 'https://via.placeholder.com/300x180?text=إعادة+حشو+عصب',
+    duration: '1-2 ساعة',
+    benefits: 'إصلاح العلاج السابق، الحفاظ على السن.',
+    moreInfo: 'علاج دقيق بتقنيات متقدمة.',
+    details: 'إعادة حشو قنوات العصب باستخدام تقنيات متقدمة لضمان نجاح العلاج.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=إعادة+عصب+1',
+      'https://via.placeholder.com/300x200?text=إعادة+عصب+2',
+      'https://via.placeholder.com/300x200?text=إعادة+عصب+3'
+    ]
+  },
+  {
+    id: 13,
     name: 'علاج الجذور',
-    description: 'علاج قنوات الجذر بدقة عالية.',
+    description: 'علاج جذور الأسنان بدقة عالية.',
     image: 'https://via.placeholder.com/300x180?text=علاج+الجذور',
     duration: '1-2 ساعة',
     benefits: 'إزالة الألم، الحفاظ على السن.',
     moreInfo: 'علاج باستخدام أحدث الأجهزة.',
-    details: 'علاج قنوات الجذر باستخدام أجهزة متطورة لضمان الراحة وإزالة الألم.',
+    details: 'علاج جذور الأسنان باستخدام أجهزة متطورة لضمان الراحة وإزالة الألم.',
     video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     images: [
-      'https://via.placeholder.com/300x200?text=علاج+1',
-      'https://via.placeholder.com/300x200?text=علاج+2',
-      'https://via.placeholder.com/300x200?text=علاج+3'
+      'https://via.placeholder.com/300x200?text=جذور+1',
+      'https://via.placeholder.com/300x200?text=جذور+2',
+      'https://via.placeholder.com/300x200?text=جذور+3'
     ]
   },
+  {
+    id: 14,
+    name: 'خلع عادي',
+    description: 'خلع الأسنان بسهولة وأمان.',
+    image: 'https://via.placeholder.com/300x180?text=خلع+عادي',
+    duration: '30 دقيقة',
+    benefits: 'إزالة الأسنان التالفة، راحة فورية.',
+    moreInfo: 'خلع بأقل ألم ممكن.',
+    details: 'خلع الأسنان باستخدام تقنيات حديثة لضمان الراحة وتقليل الألم.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=خلع+عادي+1',
+      'https://via.placeholder.com/300x200?text=خلع+عادي+2',
+      'https://via.placeholder.com/300x200?text=خلع+عادي+3'
+    ]
+  },
+  {
+    id: 15,
+    name: 'خلع جراحي',
+    description: 'خلع الأسنان المعقدة بإجراءات جراحية.',
+    image: 'https://via.placeholder.com/300x180?text=خلع+جراحي',
+    duration: '1 ساعة',
+    benefits: 'حل المشكلات المعقدة، راحة سريعة.',
+    moreInfo: 'إجراءات جراحية دقيقة.',
+    details: 'خلع جراحي باستخدام تقنيات متقدمة لضمان الدقة والراحة.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=خلع+جراحي+1',
+      'https://via.placeholder.com/300x200?text=خلع+جراحي+2',
+      'https://via.placeholder.com/300x200?text=خلع+جراحي+3'
+    ]
+  },
+  {
+    id: 16,
+    name: 'خلع ضرس العقل',
+    description: 'خلع ضرس العقل بأمان.',
+    image: 'https://via.placeholder.com/300x180?text=خلع+ضرس+العقل',
+    duration: '1 ساعة',
+    benefits: 'إزالة الألم، منع المضاعفات.',
+    moreInfo: 'إجراءات دقيقة لخلع ضرس العقل.',
+    details: 'خلع ضرس العقل باستخدام تقنيات متقدمة لتقليل الألم والمضاعفات.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=ضرس+العقل+1',
+      'https://via.placeholder.com/300x200?text=ضرس+العقل+2',
+      'https://via.placeholder.com/300x200?text=ضرس+العقل+3'
+    ]
+  },
+  {
+    id: 17,
+    name: 'خلع ضرس العقل المدفون',
+    description: 'خلع ضرس العقل المدفون بإجراءات جراحية.',
+    image: 'https://via.placeholder.com/300x180?text=خلع+ضرس+العقل+المدفون',
+    duration: '1-2 ساعة',
+    benefits: 'إزالة الألم، منع المضاعفات.',
+    moreInfo: 'جراحة دقيقة لضرس العقل المدفون.',
+    details: 'خلع ضرس العقل المدفون باستخدام تقنيات جراحية متقدمة لضمان الراحة.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=ضرس+مدفون+1',
+      'https://via.placeholder.com/300x200?text=ضرس+مدفون+2',
+      'https://via.placeholder.com/300x200?text=ضرس+مدفون+3'
+    ]
+  },
+  {
+    id: 18,
+    name: 'جراحة الأسنان',
+    description: 'إجراءات جراحية لعلاج مشكلات الأسنان المعقدة.',
+    image: 'https://via.placeholder.com/300x180?text=جراحة+الأسنان',
+    duration: '1-3 ساعات',
+    benefits: 'حل المشكلات المعقدة، تحسين الصحة الفموية.',
+    moreInfo: 'جراحات دقيقة بأحدث التقنيات.',
+    details: 'إجراءات جراحية متقدمة لعلاج مشكلات الأسنان المعقدة بأعلى معايير الجودة.',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    images: [
+      'https://via.placeholder.com/300x200?text=جراحة+1',
+      'https://via.placeholder.com/300x200?text=جراحة+2',
+      'https://via.placeholder.com/300x200?text=جراحة+3'
+    ]
+  }
 ];
 
 // مواعيد الأسبوع
 const weekSchedule = {
-  'الأحد': ['09:00 ص', '10:00 ص', '11:00 ص', '02:00 م', '03:00 م', '04:00 م'],
-  'الإثنين': ['09:00 ص', '10:00 ص', '11:00 ص', '02:00 م', '03:00 م', '04:00 م'],
-  'الثلاثاء': ['09:00 ص', '10:00 ص', '11:00 ص', '02:00 م', '03:00 م', '04:00 م'],
-  'الأربعاء': ['09:00 ص', '10:00 ص', '11:00 ص', '02:00 م', '03:00 م', '04:00 م'],
-  'الخميس': ['09:00 ص', '10:00 ص', '11:00 ص', '02:00 م', '03:00 م', '04:00 م'],
-  'الجمعة': ['09:00 ص', '10:00 ص', '11:00 ص', '02:00 م', '03:00 م', '04:00 م'],
-  'السبت': ['09:00 ص', '10:00 ص', '11:00 ص', '02:00 م', '03:00 م', '04:00 م'],
+  'الأحد': ['04:00 م', '05:00 م', '06:00 م', '07:00 م', '08:00 م', '09:00 م', '10:00 م', '11:00 م'],
+  'الإثنين': ['04:00 م', '05:00 م', '06:00 م', '07:00 م', '08:00 م', '09:00 م', '10:00 م', '11:00 م'],
+  'الثلاثاء': ['04:00 م', '05:00 م', '06:00 م', '07:00 م', '08:00 م', '09:00 م', '10:00 م', '11:00 م'],
+  'الأربعاء': ['04:00 م', '05:00 م', '06:00 م', '07:00 م', '08:00 م', '09:00 م', '10:00 م', '11:00 م'],
+  'الخميس': ['04:00 م', '05:00 م', '06:00 م', '07:00 م', '08:00 م', '09:00 م', '10:00 م', '11:00 م'],
+  'الجمعة': ['04:00 م', '05:00 م', '06:00 م', '07:00 م', '08:00 م', '09:00 م', '10:00 م', '11:00 م'],
+  'السبت': ['04:00 م', '05:00 م', '06:00 م', '07:00 م', '08:00 م', '09:00 م', '10:00 م', '11:00 م'],
 };
 
 // مواعيد محجوزة (مثال)
@@ -288,26 +480,26 @@ document.addEventListener('DOMContentLoaded', () => {
   let selectedSlot = null;
 
   function displaySchedule() {
-    const scheduleBody = document.getElementById('schedule-body');
-    scheduleBody.innerHTML = '';
+  const scheduleBody = document.getElementById('schedule-body');
+  scheduleBody.innerHTML = '';
 
-    const times = ['09:00 ص', '10:00 ص', '11:00 ص', '02:00 م', '03:00 م', '04:00 م'];
-    times.forEach(time => {
-      const row = document.createElement('tr');
-      ['الأحد', 'الإثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'].forEach(day => {
-        const isBooked = bookedSlots.some(slot => slot.day === day && slot.time === time);
-        const button = document.createElement('button');
-        button.textContent = time;
-        button.classList.add(isBooked ? 'booked' : 'available');
-        if (isBooked) button.disabled = true;
-        button.addEventListener('click', () => selectSlot(day, time, button));
-        const td = document.createElement('td');
-        td.appendChild(button);
-        row.appendChild(td);
-      });
-      scheduleBody.appendChild(row);
+  const times = ['04:00 م', '05:00 م', '06:00 م', '07:00 م', '08:00 م', '09:00 م', '10:00 م', '11:00 م'];
+  times.forEach(time => {
+    const row = document.createElement('tr');
+    ['الأحد', 'الإثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت'].forEach(day => {
+      const isBooked = bookedSlots.some(slot => slot.day === day && slot.time === time);
+      const button = document.createElement('button');
+      button.textContent = time;
+      button.classList.add(isBooked ? 'booked' : 'available');
+      if (isBooked) button.disabled = true;
+      button.addEventListener('click', () => selectSlot(day, time, button));
+      const td = document.createElement('td');
+      td.appendChild(button);
+      row.appendChild(td);
     });
-  }
+    scheduleBody.appendChild(row);
+  });
+}
 
   function selectSlot(day, time, button) {
     if (!serviceSelect.value) {
@@ -395,7 +587,7 @@ document.addEventListener('DOMContentLoaded', () => {
         serviceSelect.value = '';
         document.getElementById('schedule-table').style.display = 'none';
         confirmButton.disabled = true;
-        window.location.href = `https://wa.me/+201030956097?text=${message}`;
+        window.location.href = `https://wa.me/+201234567890?text=${message}`;
       }
     });
   });
@@ -446,5 +638,4 @@ backToTop.addEventListener('click', () => {
 });
 
 // دعم اللغة الافتراضية
-
 document.documentElement.lang = navigator.language || 'ar';
