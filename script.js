@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', () => {
         serviceSelect.value = '';
         document.getElementById('schedule-table').style.display = 'none';
         confirmButton.disabled = true;
-        window.location.href = `https://wa.me/+201234567890?text=${message}`;
+        window.location.href = `https://wa.me/+201030956097?text=${message}`;
       }
     });
   });
@@ -446,4 +446,5 @@ backToTop.addEventListener('click', () => {
 });
 
 // دعم اللغة الافتراضية
+
 document.documentElement.lang = navigator.language || 'ar';
