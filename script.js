@@ -260,32 +260,32 @@ const services = [
     id: 17,
     name: 'خلع ضرس العقل المدفون',
     description: 'خلع ضرس العقل المدفون بإجراءات جراحية.',
-    image: 'https://via.placeholder.com/300x180?text=خلع+ضرس+العقل+المدفون',
+    image: 'https://i.ibb.co/BVqf97Vz/Screenshot-2025-08-24-195954.png',
     duration: '1-2 ساعة',
     benefits: 'إزالة الألم، منع المضاعفات.',
     moreInfo: 'جراحة دقيقة لضرس العقل المدفون.',
     details: 'خلع ضرس العقل المدفون باستخدام تقنيات جراحية متقدمة لضمان الراحة.',
     video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     images: [
-      'https://via.placeholder.com/300x200?text=ضرس+مدفون+1',
-      'https://via.placeholder.com/300x200?text=ضرس+مدفون+2',
-      'https://via.placeholder.com/300x200?text=ضرس+مدفون+3'
+      'https://i.ibb.co/d4JT20qy/1502.jpg',
+      'https://i.ibb.co/BVqf97Vz/Screenshot-2025-08-24-195954.png',
+      'https://i.ibb.co/20VTSXy7/1150-842.jpg'
     ]
   },
   {
     id: 18,
     name: 'جراحة الأسنان',
     description: 'إجراءات جراحية لعلاج مشكلات الأسنان المعقدة.',
-    image: 'https://i.ibb.co/BVqf97Vz/Screenshot-2025-08-24-195954.png',
+    image: 'https://i.ibb.co/TBX7cjC2/istockphoto-1321154056-612x612-1.jpg',
     duration: '1-3 ساعات',
     benefits: 'حل المشكلات المعقدة، تحسين الصحة الفموية.',
     moreInfo: 'جراحات دقيقة بأحدث التقنيات.',
     details: 'إجراءات جراحية متقدمة لعلاج مشكلات الأسنان المعقدة بأعلى معايير الجودة.',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    video: 'https://www.youtube.com/embed/jhi4lQJlvhw?si=QVosMPxqZUllHshK',
     images: [
-      'https://i.ibb.co/d4JT20qy/1502.jpg',
-      'https://i.ibb.co/BVqf97Vz/Screenshot-2025-08-24-195954.png',
-      'https://i.ibb.co/20VTSXy7/1150-842.jpg'
+      'https://i.ibb.co/YBQrydqy/maxillofacial.png',
+      'https://i.ibb.co/TBX7cjC2/istockphoto-1321154056-612x612-1.jpg',
+      'https://i.ibb.co/cXXqGQ5W/images.jpg'
     ]
   }
 ];
@@ -639,6 +639,7 @@ backToTop.addEventListener('click', () => {
 
 // دعم اللغة الافتراضية
 document.documentElement.lang = navigator.language || 'ar';
+
 
 
 
