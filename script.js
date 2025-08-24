@@ -249,7 +249,7 @@ const services = [
     benefits: 'إزالة الألم، منع المضاعفات.',
     moreInfo: 'إجراءات دقيقة لخلع ضرس العقل.',
     details: 'خلع ضرس العقل باستخدام تقنيات متقدمة لتقليل الألم والمضاعفات.',
-    video: 'https://youtu.be/brW4tsxxJEQ?si=fvTOlfcbr6IGwkhg',
+    video: 'https://www.youtube.com/embed/fm208EgQUoU?si=QGsQU9mHPoEqVRoj',
     images: [
       'https://via.placeholder.com/300x200?text=ضرس+العقل+1',
       'https://via.placeholder.com/300x200?text=ضرس+العقل+2',
@@ -639,6 +639,7 @@ backToTop.addEventListener('click', () => {
 
 // دعم اللغة الافتراضية
 document.documentElement.lang = navigator.language || 'ar';
+
 
 
 
