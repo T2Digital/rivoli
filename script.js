@@ -276,16 +276,16 @@ const services = [
     id: 18,
     name: 'جراحة الأسنان',
     description: 'إجراءات جراحية لعلاج مشكلات الأسنان المعقدة.',
-    image: 'https://via.placeholder.com/300x180?text=جراحة+الأسنان',
+    image: 'https://i.ibb.co/BVqf97Vz/Screenshot-2025-08-24-195954.png',
     duration: '1-3 ساعات',
     benefits: 'حل المشكلات المعقدة، تحسين الصحة الفموية.',
     moreInfo: 'جراحات دقيقة بأحدث التقنيات.',
     details: 'إجراءات جراحية متقدمة لعلاج مشكلات الأسنان المعقدة بأعلى معايير الجودة.',
     video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     images: [
-      'https://via.placeholder.com/300x200?text=جراحة+1',
-      'https://via.placeholder.com/300x200?text=جراحة+2',
-      'https://via.placeholder.com/300x200?text=جراحة+3'
+      'https://i.ibb.co/d4JT20qy/1502.jpg',
+      'https://i.ibb.co/BVqf97Vz/Screenshot-2025-08-24-195954.png',
+      'https://i.ibb.co/20VTSXy7/1150-842.jpg'
     ]
   }
 ];
@@ -639,6 +639,7 @@ backToTop.addEventListener('click', () => {
 
 // دعم اللغة الافتراضية
 document.documentElement.lang = navigator.language || 'ar';
+
 
 
 
