@@ -244,16 +244,16 @@ const services = [
     id: 16,
     name: 'خلع ضرس العقل',
     description: 'خلع ضرس العقل بأمان.',
-    image: 'https://via.placeholder.com/300x180?text=خلع+ضرس+العقل',
+    image: 'https://i.ibb.co/CRfFgfw/Screenshot-2025-08-24-194754.png',
     duration: '1 ساعة',
     benefits: 'إزالة الألم، منع المضاعفات.',
     moreInfo: 'إجراءات دقيقة لخلع ضرس العقل.',
     details: 'خلع ضرس العقل باستخدام تقنيات متقدمة لتقليل الألم والمضاعفات.',
     video: 'https://www.youtube.com/embed/fm208EgQUoU?si=QGsQU9mHPoEqVRoj',
     images: [
-      'https://via.placeholder.com/300x200?text=ضرس+العقل+1',
-      'https://via.placeholder.com/300x200?text=ضرس+العقل+2',
-      'https://via.placeholder.com/300x200?text=ضرس+العقل+3'
+      'https://i.ibb.co/CRfFgfw/Screenshot-2025-08-24-194754.png',
+      'https://i.ibb.co/LdtWRxFQ/Screenshot-2025-08-24-194722.png',
+      'https://i.ibb.co/mrkxwfh8/Screenshot-2025-08-24-194901.png'
     ]
   },
   {
@@ -639,6 +639,7 @@ backToTop.addEventListener('click', () => {
 
 // دعم اللغة الافتراضية
 document.documentElement.lang = navigator.language || 'ar';
+
 
 
 
