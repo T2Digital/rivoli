@@ -153,7 +153,7 @@ const services = [
     benefits: 'راحة، سهولة الاستخدام.',
     moreInfo: 'تركيبات مرنة ومتينة.',
     details: 'تركيبات متحركة مريحة وسهلة الاستخدام، مصممة حسب احتياجات المريض.',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    video: 'https://www.pinterest.com/pin/6192518232116165',
     images: [
       'https://via.placeholder.com/300x200?text=تركيبات+متحركة+1',
       'https://via.placeholder.com/300x200?text=تركيبات+متحركة+2',
@@ -639,5 +639,6 @@ backToTop.addEventListener('click', () => {
 
 // دعم اللغة الافتراضية
 document.documentElement.lang = navigator.language || 'ar';
+
 
 
