@@ -196,16 +196,16 @@ const services = [
     id: 13,
     name: 'علاج الجذور',
     description: 'علاج جذور الأسنان بدقة عالية.',
-    image: 'https://via.placeholder.com/300x180?text=علاج+الجذور',
+    image: 'https://i.ibb.co/6JG8r6F9/11-1-625x615.jpg',
     duration: '1-2 ساعة',
     benefits: 'إزالة الألم، الحفاظ على السن.',
     moreInfo: 'علاج باستخدام أحدث الأجهزة.',
     details: 'علاج جذور الأسنان باستخدام أجهزة متطورة لضمان الراحة وإزالة الألم.',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    video: 'https://www.youtube.com/embed/pQsd5nc6hAA?si=HhKwOXWarFLs9JBi',
     images: [
-      'https://via.placeholder.com/300x200?text=جذور+1',
-      'https://via.placeholder.com/300x200?text=جذور+2',
-      'https://via.placeholder.com/300x200?text=جذور+3'
+      'https://i.ibb.co/tpV6gLfb/images-1.jpg',
+      'https://i.ibb.co/6JG8r6F9/11-1-625x615.jpg',
+      'https://i.ibb.co/Zz03MvpT/image.jpg'
     ]
   },
   {
@@ -639,6 +639,7 @@ backToTop.addEventListener('click', () => {
 
 // دعم اللغة الافتراضية
 document.documentElement.lang = navigator.language || 'ar';
+
 
 
 
