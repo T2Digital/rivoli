@@ -212,14 +212,14 @@ const services = [
     id: 14,
     name: 'خلع عادي',
     description: 'خلع الأسنان بسهولة وأمان.',
-    image: 'https://via.placeholder.com/300x180?text=خلع+عادي',
+    image: 'https://i.ibb.co/CRfFgfw/Screenshot-2025-08-24-194754.png',
     duration: '30 دقيقة',
     benefits: 'إزالة الأسنان التالفة، راحة فورية.',
     moreInfo: 'خلع بأقل ألم ممكن.',
     details: 'خلع الأسنان باستخدام تقنيات حديثة لضمان الراحة وتقليل الألم.',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    video: 'https://www.youtube.com/embed/RIhr32Ko-uY?si=vRkwgMqzMhWLS1bH',
     images: [
-      'https://via.placeholder.com/300x200?text=خلع+عادي+1',
+      'https://i.ibb.co/CRfFgfw/Screenshot-2025-08-24-194754.png',
       'https://via.placeholder.com/300x200?text=خلع+عادي+2',
       'https://via.placeholder.com/300x200?text=خلع+عادي+3'
     ]
@@ -228,14 +228,14 @@ const services = [
     id: 15,
     name: 'خلع جراحي',
     description: 'خلع الأسنان المعقدة بإجراءات جراحية.',
-    image: 'https://via.placeholder.com/300x180?text=خلع+جراحي',
+    image: 'https://i.ibb.co/BVqf97Vz/Screenshot-2025-08-24-195954.png',
     duration: '1 ساعة',
     benefits: 'حل المشكلات المعقدة، راحة سريعة.',
     moreInfo: 'إجراءات جراحية دقيقة.',
     details: 'خلع جراحي باستخدام تقنيات متقدمة لضمان الدقة والراحة.',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    video: 'https://www.youtube.com/embed/FDS5v5nsN4U?si=Hayu9axZOXVILlh9',
     images: [
-      'https://via.placeholder.com/300x200?text=خلع+جراحي+1',
+      'https://i.ibb.co/BVqf97Vz/Screenshot-2025-08-24-195954.png',
       'https://via.placeholder.com/300x200?text=خلع+جراحي+2',
       'https://via.placeholder.com/300x200?text=خلع+جراحي+3'
     ]
@@ -639,6 +639,7 @@ backToTop.addEventListener('click', () => {
 
 // دعم اللغة الافتراضية
 document.documentElement.lang = navigator.language || 'ar';
+
 
 
 
