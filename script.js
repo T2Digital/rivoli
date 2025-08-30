@@ -36,7 +36,7 @@ const services = [
     id: 3,
     name: 'تبييض الأسنان',
     description: 'تبييض الأسنان بأمان وسرعة.',
-    image: 'https://via.placeholder.com/300x180?text=تبييض+الأسنان',
+    image: 'https://i.ibb.co/39hL9K7W/png.webp',
     duration: '1 ساعة',
     benefits: 'ابتسامة مشرقة، تحسين الثقة بالنفس.',
     moreInfo: 'استخدام ليزر آمن ومواد عالية الجودة.',
@@ -639,6 +639,7 @@ backToTop.addEventListener('click', () => {
 
 // دعم اللغة الافتراضية
 document.documentElement.lang = navigator.language || 'ar';
+
 
 
 
